@@ -1,0 +1,125 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #38218a;
+  --tertiary-color: rgb(34, 30, 49);
+  --font-family: 'Roboto', arial;
+}
+
+body {
+  background-color: var(--primary-color);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--tertiary-color);
+  padding: 1.25rem 0 1.25rem 6.25rem;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 5.625rem;
+  height: 5.625rem;
+  margin-right: auto;
+}
+
+.header-link {
+  display: flex;
+  margin-left: auto;
+  padding: 0 6.25rem 0 0;
+}
+
+.header-link a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.125rem;
+  padding: 0.625rem;
+  font-family: var(--font-family);
+}
+
+.post_punk {
+  display: flex;
+  background-color: var(--primary-color);
+  padding: 1.25rem 0 1.25rem 6.25rem;
+}
+.info_post_punk  {
+  text-decoration: none;
+  color: #38218a;
+  font-size: 18px;
+  padding: 10px;
+  font-family: 'Roboto', arial;
+  
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #38218a;
+  margin: 0;
+  font-family: 'Roboto', arial;
+}
+.logo{
+  margin-right;:auto
+  margin-left: auto;
+  padding: 0px 0px 0px 0px;
+  
+}
+.logo img {
+  width: 450px;
+  height: 450x;
+  margin: left 40rem;
+}
+.info_post_punk button {
+  display: block;
+  text-align: center;
+  width: 100px;
+  border: none;
+  background: #38218a;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Roboto', arial;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto 
+}
+music{
+  display: flex;
+  flex-direction: row;
+   
+}
+h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #38218a;
+  margin: 0;
+  font-family: 'Roboto', arial;
+}
+.playlists{
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  margin: 10px 0 12px 0;
+}
+.end{
+  display:flex;
+  flex-direction: column;
+  background-color: darkgray;
+  align-items: center;
+  width: 500px;
+}
+end p{
+  font-size: 48px;
+  font-weight: bold;
+  color: #38218a;
+  margin: 0;
+  font-family: 'Roboto', arial;
+}
