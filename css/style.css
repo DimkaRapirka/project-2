@@ -91,9 +91,12 @@ h1 {
   margin-left: auto;
   margin-right: auto 
 }
-music{
+.music {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
    
 }
 h2{
@@ -115,11 +118,7 @@ h2{
   background-color: darkgray;
   align-items: center;
   width: 500px;
+ margin-left: auto;
+   margin-right: auto 
 }
-end p{
-  font-size: 48px;
-  font-weight: bold;
-  color: #38218a;
-  margin: 0;
-  font-family: 'Roboto', arial;
-}
+
